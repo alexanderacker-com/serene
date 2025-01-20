@@ -13,7 +13,7 @@ cd myblog
 Add the serene theme:
 
 ```sh
-git submodule add -b latest https://github.com/alexanderacker-com/serene.git themes/serene
+git submodule add https://github.com/alexanderacker-com/serene.git themes/serene
 ```
 
 Copy the content of `myblog/themes/serene/config.example.toml` to `myblog/config.toml`, refer to the comments in the file and Zola's [documentation](https://www.getzola.org/documentation/getting-started/overview/) to modify accordingly
