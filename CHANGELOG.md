@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+# After Fork
+## [0.1.0] - 2025-01-19
+
+### Remove:
+- Math rendering with Typst removed
+- Math rendering with Katex removed
+- Mermaid support removed
+- Fix templates to work with my local zola ``0.19.2``
+
+[0.1.0]: https://github.com/alexanderacker-com/serene/releases/tag/v0.1.0
+
+# Pre-Fork
+
 ## [4.5.0] - 2024-11-03
 
 ### UI:
