@@ -1,4 +1,4 @@
-A spiffy blog theme for [zola](https://www.getzola.org), demo: <https://serene-demo.pages.dev>
+A spiffy blog theme for [zola](https://www.getzola.org)
 - Created by [isunjn](https://github.com/isunjn)
 - Forked by [xenon](https://github.com/xenon)
 
