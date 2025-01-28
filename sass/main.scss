@@ -1489,7 +1489,12 @@ pre {
 }
 
 a {
-  background-color: transparent;
+  color: var(--primary-color);
+  text-decoration-color: var(--primary-pale-color);
+
+  &:hover, &:active {
+    text-decoration-color: var(--primary-color);
+  }
 }
 
 abbr[title] {
