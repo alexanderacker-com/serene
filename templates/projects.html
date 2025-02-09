@@ -37,7 +37,7 @@
       <div class="content">
         <div class="desc">{{ load_data(path="content" ~ section.path ~ "desc/" ~ proj.desc) | trim | markdown | safe }}</div>
         {% if proj.img %}
-        <img src="{{ proj.img }}" alt="{{ proj.name }}" />
+        <img src="{{ proj.img }}" alt="{{ proj.name }}" {% if proj.render %}style="image-rendering: {{ proj.render }};"{% endif %} />
         {% endif %}
       </div>
     </div>
